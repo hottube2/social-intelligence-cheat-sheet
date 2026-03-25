@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface text-ink antialiased;
+}
+
+a {
+  @apply transition;
+}
+
+.prose-lite p {
+  @apply text-muted leading-8;
+}
+
+.prose-lite h1,
+.prose-lite h2,
+.prose-lite h3 {
+  @apply text-ink tracking-tight;
+}
